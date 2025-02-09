@@ -1,5 +1,5 @@
-# 2025-ITELEC2-LAB002
-Laboratory Activity # 02 - Working with Variables, Arithmetic and Assignment Operators
+# 2025-ITELEC2-S03-E01
+Session 03 - Exercise 01 - Working with Variables, Arithmetic and Assignment Operators
 
 ---
 
@@ -18,61 +18,22 @@ Laboratory Activity # 02 - Working with Variables, Arithmetic and Assignment Ope
 3. Open your terminal (or Git Bash, Command Prompt, or PowerShell) and run:
 
 ```bash
-git clone <your_git_repo_url>
+git clone https://github.com/PLMUN-CITCS/itelec2-s03-e01-[your username].git
 ```
 
 4. Navigate into the cloned folder:
 
 ```bash
-cd <your_local_repo_folder>
+cd itelec2-s03-e01-[your username]
 ```
 
 ### **Step 3: Complete the Assignment**
-**Overview**
-This problem set consists of two Python programming tasks designed to build basic skills in coding and user interaction. The first task creates a simple calculator that performs arithmetic operations on two user-provided numbers, while the second computes the square of a single number.
 
-# **Problem Set 01 – Problem 01: Simple Calculator Program**
-
-**Objectives**
-- Programming Fundamentals: Learn how to write a Python script that takes user input, performs arithmetic operations, and displays results.
-- User Interaction: Practice obtaining input from users and formatting the output.
-- Code Organization: Understand the importance of clear code structure and comments for readability.
-
-**Folder Structure and Naming Conventions**
-- File Name: problem_01.py
-- Location: Place the file in the root folder of your repository.
-- File Header: Include your name, course code (e.g., ITELEC2), and a brief description as shown in the starter template.
-
-**Desired Output**
-When the program runs, it should display:
-- The title:
-```txt
+# **Problem Set 01 - Problem 01**
 Simple Calculator Program
-```
-- Prompts for two numbers.
-- The sum, difference, product, and quotient of the two numbers (formatted to two decimal places for the quotient).
-*Example (with sample numbers):*
-```txt
-Simple Calculator Program
-Enter 1st number: 8
-Enter 2nd number: 2
-The sum is 10
-The difference is 6
-The product is 16
-The quotient is 4.00
-```
+A. Write a Simple Calculator Program
 
-**Notable Observations**
-- Input Conversion: Ensure user inputs are converted to integers for proper arithmetic operations.
-- Division Consideration: Note the quotient is formatted to two decimal places using :.2f, which is a format specifier that controls numerical precision.
-- F-string Arithmetic: Python f-strings allow you to perform arithmetic operations directly within the expression brackets (e.g., {num1 + num2}), streamlining your code.
-- Code Comments: Use header comments for documentation and update them with your actual details.
-- Consistent File Structure: Maintain the file in the repository's root directory and adhere to naming conventions to support automatic grading.
-
-**Step-by-Step Instructions**
-1. Initialize the File:
-- Open problem_01.py in your text editor or IDE.
-- Start with the following template:
+1. Open `problem_01.py` in your text editor or IDE (Python)
 ```python
 # YOUR NAME
 # ITELEC2
@@ -80,128 +41,85 @@ The quotient is 4.00
 # Simple Calculator Program
 
 def main():
-    pass  # replace this line with all of your code
+    pass # replace this line with all of your code
 
 if __name__ == "__main__":
     main()
 ```
 
-2. Introduce the Program:
-- Replace the pass statement with a print statement to introduce the program:
+2. Replace Line 7 from `problem_01.py`, and start introducing the program
 ```python
 print("Simple Calculator Program")
 ```
 
-3. Obtain User Input:
-- Prompt the user for two numbers and convert the inputs to integers:
+3. Get two numbers from the user
 ```python
 num1 = int(input("Enter 1st number: "))
 num2 = int(input("Enter 2nd number: "))
 ```
 
-4. Perform Arithmetic Operations:
-- Sum:
+4. Return the sum of the two numbers
 ```python
 print(f"The sum is {num1 + num2}")
 ```
-- Difference:
+
+5. Return the difference of the two numbers
 ```python
 print(f"The difference is {num1 - num2}")
 ```
-- Product:
+
+6. Return the product of the two numbers
 ```python
 print(f"The product is {num1 * num2}")
 ```
-- Quotient:
+
+7. Return the quotient of the two numbers
 ```python
 print(f"The quotient is {(num1 / num2):.2f}")
 ```
 
-5. Run and Verify:
-- Save the file and verify its output by running the command in your terminal
+8. Save `problem_01.py` and verify your work by typing this command in the terminal
 ```bash
 python problem_01.py
 ```
 
-**Conclusion**
-Completing the Simple Calculator Program reinforces essential programming concepts such as input handling, arithmetic operations, and output formatting. It also introduces the power of f-string expressions and format specifiers, all of which are crucial for writing clean and efficient code.
-
-# **Problem Set 01 – Problem 02: Square the Number Program**
-
-**Objectives**
-- Basic Computation: Compute and display the square of a number using Python.
-- User Interaction: Practice obtaining and processing user input.
-- Program Structure: Transform a template into a functional program.
-
-**Folder Structure and Naming Conventions**
-- File Name: problem_02.py
-- Location: Save the file in the root folder of your repository.
-- File Header: Include your name, course code (e.g., ITELEC2), and a brief description per the provided starter template.
-
-**Desired Output**
-When the program runs, it should display:
-- The title:
-```txt
+# **Problem Set 01 - Problem 02**
 Square the Number Program
-```
-- Prompts for two numbers.
-- The sum, difference, product, and quotient of the two numbers (formatted to two decimal places for the quotient).
-*Example (with sample numbers):*
-```txt
-Square the Number Program
-Enter a number: 5
-The square of 5 is 25.00
-```
+B. Square the Number Program
 
-**Notable Observations**
-- Input Handling: Ensure that the input is correctly converted to an integer for computation.
-- F-string Arithmetic: The square is computed directly inside the f-string (i.e., {number * number}), demonstrating the convenience of embedding arithmetic within a print statement.
-- Format Specifier: The use of :.2f ensures that the output is formatted to two decimal places, providing consistency and precision in numerical output.
-- Simplicity and Clarity: The program exemplifies how a concise code structure can be both readable and functional.
-
-**Step-by-Step Instructions**
-1. Initialize the File:
-- Open problem_02.py in your text editor or IDE.
-- Start with the following template:
+1. Open `problem_02.py` in your text editor or IDE (Python)
 ```python
 # YOUR NAME
 # ITELEC2
-# Problem Set 01 - Problem 01
-# Simple Calculator Program
+# Problem Set 01 - Problem 02
+# Square the Number Program
 
 def main():
-    pass  # replace this line with all of your code
+    pass # replace this line with all of your code
 
 if __name__ == "__main__":
     main()
 ```
 
-2. Introduce the Program:
-- Replace the pass statement with a print statement to introduce the program:
+2. Replace Line 7 from `problem_02.py`, and start introducing the program
 ```python
 print("Square the Number Program")
 ```
 
-3. Obtain User Input:
-- Prompt the user for a number:
+3. Get a number from the user
 ```python
 number = int(input("Enter a number: "))
 ```
 
-4. Compute the Square:
-- Calculate and display the square (formatted to two decimal places):
+4. Return the square of the number
 ```python
-print(f"The square of {number} is {(number * number):.2f}")
+print(f"The square of {number} is {(number*number):.2f}")
 ```
 
-5. Run and Verify:
-- Save the file and verify its output by running the command in your terminal
+5. Save `problem_02.py` and verify your work by typing this command in the terminal
 ```bash
 python problem_02.py
 ```
-
-**Conclusion**
-The Square the Number Program strengthens your skills in handling user input and performing basic computations. By embedding arithmetic operations within f-strings and utilizing format specifiers, you learn techniques that help create clean, efficient, and well-formatted output. Both problems together lay a solid foundation for further programming challenges.
 
 ### **Step 4: Push Changes to GitHub**
 Once you've completed your changes, follow these steps to upload your work to your GitHub repository.
